@@ -40,7 +40,7 @@ def check_all_messages(user_input):
     response("Thank you!",['i','love','you'], required_words=['love','you'])
     response("Thank you!",['i','like','you'], required_words=['like','you'])
     response("Thank you!",['great','good','well'], single_response=True)
-    response("Okay! Hope to see you again.",['bye'], single_response=True)
+    response("Okay! Hope to see you again.",['bye','close','exit'], single_response=True)
 
 
     best_match=max(highest_prob_list,key=highest_prob_list.get)
