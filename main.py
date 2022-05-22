@@ -39,8 +39,8 @@ def check_all_messages(user_input):
     response("Currently I'm eating your computer memory :)",['what','you','eat'],required_words=['eat'])
     response("Thank you!",['i','love','you'], required_words=['love','you'])
     response("Thank you!",['i','like','you'], required_words=['like','you'])
-    response("Thank you!",['great'], single_response=True)
-    response("Okay! Hope to see you again.",['good','bye'], single_response=True)
+    response("Thank you!",['great','good','well'], single_response=True)
+    response("Okay! Hope to see you again.",['bye'], single_response=True)
 
 
     best_match=max(highest_prob_list,key=highest_prob_list.get)
